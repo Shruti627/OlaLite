@@ -1,93 +1,104 @@
 # 🚖 OlaLite – Console-Based Cab Booking System
 
-A feature-rich, **menu-driven Java console application** simulating an Ola/Uber-like cab booking experience. Users can register, log in, book rides, rate them, manage favourite locations, and view ride history — all through a clean, Unicode-enhanced console interface.
+A feature-rich, **menu-driven Java console application** that simulates an Ola/Uber-like cab booking experience.  
+Users can register, log in, book rides, manage favourite locations, and view ride history — all via a clean, Unicode-enhanced console UI.
 
 ---
 
 ## 💡 Overview
 
-- 📲 User-friendly console UI with realistic ride booking simulation  
-- 🔐 Modular, object-oriented design using Java  
-- ⚙️ Real-world logic like cab availability, fare calculation, and role-based access  
+- 📲 User-friendly console UI with a realistic booking simulation  
+- 🔐 Secure login with role-based access (Admin / User)  
+- ⚙️ Realistic logic: cab availability, ETA, fare calculation, and ride ratings  
+- 💻 Built using Core Java with OOP, collections, and exception handling  
 
 ---
 
 ## 👨‍💻 Core Technologies Used
 
-- **Java Core** (OOP, Collections, Exception Handling)  
-- **Console UI** with Unicode icons and clean formatting  
-- **Method-driven Modular Design**  
-- **Realistic Logic Simulation** (ETA, availability, rating, etc.)  
+- **Java Core** (OOP Principles, Collections Framework, Exception Handling)  
+- **Console UI** with Unicode icons & formatted text output  
+- **Modular Method-Driven Architecture**  
+- **Simulated Real-World Logic** (like ETA, cab type logic, fare, ratings)  
 
 ---
 
 ## 📂 Main Modules
 
-### 1. User Management
-- 📝 Sign up / Log in  
-- 📧 Email & password validation  
-- 👤 Role-based access (Admin / User)  
+### 1. 🧑‍💼 User Management
+- Sign up & log in with validation  
+- Email/password verification  
+- Role-based access: Admin / User  
 
-### 2. Cab Booking
-- 🚗 Choose cab type: Micro / Mini / Prime  
-- 📏 Enter distance (km) for fare calculation  
-- 🧾 Fare shown with ETA and cab info  
-- 🧾 Confirmation before final booking  
+### 2. 🚕 Cab Booking
+- Choose cab type: Micro, Mini, Prime  
+- Enter distance → get fare, cab info & ETA  
+- Confirm before booking  
 
-### 3. Favourite Locations
-- 📍 Add / Remove / View saved locations  
-- ♻️ Reuse locations for pickup/drop  
+### 3. 📍 Favourite Locations
+- Add, remove, or view saved pickup/drop points  
+- Reuse saved locations for faster booking  
 
-### 4. Cab Availability Simulation
-- 🎲 Random cab availability check per type  
-- ⏱ ETA shown per cab  
-- ❌ Booking blocked if unavailable  
+### 4. 📶 Cab Availability Simulation
+- Simulate availability with random logic  
+- ETA displayed per cab type  
+- Block booking if no cabs are available  
 
-### 5. Ride History & Ratings
-- 📜 View complete past ride list  
-- ⭐ Rate each ride (1.0 – 5.0)  
-- 🗣 Store feedback for each ride  
+### 5. 🧾 Ride History & Ratings
+- View complete ride history  
+- Rate rides (1.0 – 5.0 stars)  
+- Optional feedback storage  
 
-### 6. Exception Handling
-- ❗ Graceful input validation  
-- 🔐 Custom exceptions like BookingException  
+### 6. ❗ Exception Handling
+- Input validation  
+- Custom exceptions like `BookingException` for clean error management  
 
 ---
 
-## 🔐 OOP Design
+## 🔐 OOP Design Highlights
 
-- `User` class: Stores user data & favourites  
-- `Ride` class: Holds ride info (ID, fare, cab, rating, etc.)  
-- `BookingService`: Handles all ride logic  
-- `UserService`: Manages login, registration, and user-specific data  
+| Class           | Description                                                  |
+|----------------|--------------------------------------------------------------|
+| `User`          | Stores user credentials and favourite locations             |
+| `Ride`          | Holds ride details: fare, cab type, distance, rating, etc.  |
+| `BookingService`| Main logic for cab booking, ETA, fare, and availability     |
+| `UserService`   | Manages registration, login, and user-specific data         |
 
 ---
 
 ## 🌟 Extra Features
 
-- ♻️ Smart reuse of favourite locations  
-- ⭐ Post-ride rating system  
-- 🎲 Real-time cab availability logic  
-- ⏱ ETA display based on cab type  
-- ✨ Clean, professional console output with formatting/icons  
+- ♻️ Reuse favourite locations easily  
+- ⭐ Post-ride star rating system  
+- 🎲 Randomized real-time cab availability  
+- ⏱ ETA displayed per cab type  
+- ✨ Well-formatted output for great user experience  
 
 ---
 
 ## 🚀 How to Run
 
-1. Clone the repo or download the ZIP  
-2. Open the project in **Eclipse**  
-3. Compile and run `Main.java`  
-4. Follow the console menu to interact with the system  
+1. Clone the repository or download the ZIP  
+2. Open in **Eclipse** or any Java IDE  
+3. Run the entry file: `Main.java`  
+4. Follow the interactive menu from the console  
 
 ---
 
-## 🧑‍🎓 Author
+
+
+## 👩‍🎓 Author
 
 **Shruti Parikshit Sangvikar**  
-🎓 3rd Year Engineering student
-
+🎓 3rd Year Engineering Student  
+🏫 Zeal College of Engineering and Research, Pune  
+💡 Electronics and Computer Engineering  
 
 ---
 
+## 📜 License
+
+This project is open for educational and non-commercial use.
+
+---
 
