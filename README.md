@@ -91,8 +91,6 @@ Users can register, log in, book rides, manage favourite locations, and view rid
 
 **Shruti Parikshit Sangvikar**  
 🎓 3rd Year Engineering Student  
-🏫 Zeal College of Engineering and Research, Pune  
-💡 Electronics and Computer Engineering  
 
 ---
 
