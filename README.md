@@ -84,12 +84,11 @@ Users can register, log in, book rides, manage favourite locations, and view rid
 4. Follow the interactive menu from the console  
 
 ---
+
 ## 🎤 Project Presentation
 
 You can view or download the presentation below:  
-[📑 Download OlaLite Documentaion ](./OLALiteSummary.pdf)
-
-
+[📑 Download OlaLite Documentation (PDF)](./OLALiteSummary.pdf)
 
 ## 👩‍🎓 Author
 
@@ -103,4 +102,5 @@ You can view or download the presentation below:
 This project is open for educational and non-commercial use.
 
 ---
+
 
