@@ -84,12 +84,16 @@ Users can register, log in, book rides, manage favourite locations, and view rid
 4. Follow the interactive menu from the console  
 
 ---
+## 🎤 Project Presentation
+
+You can view or download the presentation below:  
+[📑 Download OlaLite Documentaion ](./OLALiteSummary.pdf)
 
 
 
 ## 👩‍🎓 Author
 
-**Shruti Parikshit Sangvikar**  
+**Shruti P. Sangvikar**  
 🎓 3rd Year Engineering Student  
 
 ---
